@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.hd {
+    height: 35px;
+    width: 100%;
+    background-color: #65256F;
+    display: flex;
+}
+.p-1 {
+    color: #FFB700;
+    padding-top: 8px;
+    font-size: 15px;
+    padding-left: 150px;
+}
+
+.p-2 {
+    padding-top: 8px;
+    padding-left: 300px;
+    color: rgb(212, 212, 212);
+    font-size: 15px;
+}
+.p-3 {
+    padding-top: 9px;
+    padding-left: 50px;
+    color: #FBC70E;
+    font-size: 15px;
+}
+
+
+.menu {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.im-1 {
+    width: 13%;
+    height: 50px;
+    padding-top: 9px;
+    margin-left: 100px;
+}
+.ul-1 {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    padding-left: 230px;
+}
+.li-1 {
+    margin-top: 20px;
+    color: #2A2828;
+}
+a {
+    text-decoration: none;
+}
+
+.a-1 + .a-1 {
+    margin-left: 45px;
+}
+
+.btn-1 {
+    width: 130px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 50px;
+    background-color: #a431b6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+.btn {
+    width: 100%;
+    height: 86.3vh;
+    background-image: url(../armada/img/Rectangle\ 70.png);
+
+}
+.shadow {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0.4);
+}
+.h1-1 {
+    color: #fff;
+    width: 57%;
+    font-size: 60px;
+    padding-top: 140px;
+    margin-left: 150px;
+
+    font-weight: 700;
+}
+.border {
+    width: 55px;
+    height: 3px;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.h1-2 {
+    color: #fff;
+    margin-left: 150px;
+    width: 48%;
+    padding-top: 20px;
+    font-family: gilroy;
+    font-weight: 300;
+}
+.btn-2 {
+    width: 200px;
+    height: 50px;
+    background-color: #FFC957;
+    border: none;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: gilroy;
+    font-size: 15px;
+}
+.im-2 {
+    margin-left: 90%;
+    margin-top: -300px;
+    position: absolute;
+}
+.im-3 {
+    margin-left: 90%;
+    margin-top: -200px;
+    position: absolute;
+}
+.im-4 {
+    margin-left: 90%;
+    margin-top: -100px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+.h1-3 {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.h1-3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 24%;
+    width: 41.5%;
+    height: 1px;
+    background-color: #BEBEBE;
+}
+
+.h1-3::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 24%;
+    width: 41.5%;
+    height: 1px;
+    background-color: #BEBEBE;
+}
